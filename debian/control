@@ -15,15 +15,6 @@ Build-Depends:
  qt6-base-dev | libqt5opengl5-dev,
  libdtk6widget-dev | libdtkwidget-dev,
  libdtk6core-dev | libdtkcore-dev,
- # 强制解决 OBS 多候选问题
- libsdl2-dev,
- libsdl2-2.0-0,
- libavcodec61,
- libavformat61,
- libavfilter10,
- libavdevice61,
- libunwind-dev,
- # End
  doxygen,
  librsvg2-dev,
  libmpv-dev,
@@ -45,7 +36,14 @@ Build-Depends:
  portaudio19-dev,
  libv4l-dev,
  libncnn-dev,
- libopencv-mobile-dev
+ libopencv-mobile-dev,
+ libsdl2-dev,
+ libsdl2-2.0-0,
+ libavcodec61,
+ libavformat61,
+ libavfilter10,
+ libavdevice61,
+ libunwind-dev
 Standards-Version: 4.5.0
 
 Package: libdtk6multimedia
