@@ -36,14 +36,7 @@ Build-Depends:
  portaudio19-dev,
  libv4l-dev,
  libncnn-dev,
- libopencv-mobile-dev,
- libsdl2-dev,
- libsdl2-2.0-0,
- libavcodec61,
- libavformat61,
- libavfilter10,
- libavdevice61,
- libunwind-dev
+ libopencv-mobile-dev
 Standards-Version: 4.5.0
 
 Package: libdtk6multimedia
