@@ -1,7 +1,7 @@
 Source: dtkmultimedia
 Section: libdevel
 Priority: optional
-Maintainer: Packages Builder <packages@deepin.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends:
  debhelper-compat (= 12),
  cmake,
@@ -15,6 +15,15 @@ Build-Depends:
  qt6-base-dev | libqt5opengl5-dev,
  libdtk6widget-dev | libdtkwidget-dev,
  libdtk6core-dev | libdtkcore-dev,
+ # 强制解决 OBS 多候选问题
+ libsdl2-dev,
+ libsdl2-2.0-0,
+ libavcodec61,
+ libavformat61,
+ libavfilter10,
+ libavdevice61,
+ libunwind-dev,
+ # End
  doxygen,
  librsvg2-dev,
  libmpv-dev,
