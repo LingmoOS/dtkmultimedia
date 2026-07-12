@@ -8,7 +8,7 @@ SPDX-License-Identifier: CC0-1.0
 -->
 
 <node>
-  <interface name="com.deepin.dtk.fakeInterface">
+  <interface name="com.lingmo.dtk.fakeInterface">
     <property name="Docked" type="b" access="readwrite"/>
     <method name="ListUsers">
       <arg type="a(uo)" direction="out"/>

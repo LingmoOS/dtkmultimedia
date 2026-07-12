@@ -6,9 +6,9 @@ find_package(Qt${QT_VERSION_MAJOR}DBus REQUIRED)
 set(CMAKE_AUTOMOC ON)
 add_definitions(-DUSE_FAKE_INTERFACE)
 
-set(FAKE_SERVICE "com.deepin.dtk.fakeInterface")
-set(FAKE_PATH "/com/deepin/dtk/fakeInterface")
-set(FAKE_INTERFACE "com.deepin.dtk.fakeInterface")
+set(FAKE_SERVICE "com.lingmo.dtk.fakeInterface")
+set(FAKE_PATH "/com/lingmo/dtk/fakeInterface")
+set(FAKE_INTERFACE "com.lingmo.dtk.fakeInterface")
 
 # 由于包含自定义类型 'a(uo)'，xml 文件需要自行编辑一下 生成 adaptor。
 if (ENABLE_Qt6)

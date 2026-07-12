@@ -10,7 +10,7 @@
 class DFakeInterface : public QObject
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface","com.deepin.dtk.fakeInterface")
+    Q_CLASSINFO("D-Bus Interface","com.lingmo.dtk.fakeInterface")
     Q_PROPERTY(bool Docked READ Docked WRITE setDocked NOTIFY DockedChanged)
 public:
     explicit DFakeInterface(QObject *parent = nullptr);
